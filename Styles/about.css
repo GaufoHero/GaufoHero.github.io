@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #6b4f3e; /* Acoustic guitar wood color */
+    color: white;
+    padding: 20px;
+}
+
+nav h2 {
+    overflow-x: hidden;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #f2b25e; /* Light golden color */
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #2d1e1c; /* Darker guitar wood color */
+    color: white;
+    padding: 20px;
+    position: sticky;
+    height: 35rem;
+    
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #f2b25e;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    color: white;
+}
+
+main {
+    flex-grow: 1;
+    padding: 50px;
+}
+
+
+.about, .course {
+    background-color: rgb(255, 232, 202);
+    border: outset;
+    width: 70%;
+    max-width: 70%;
+    padding: 10px;
+}
+
+
+
+
+ h2, h3{
+    color: #6b4f3e; 
+}
+
+footer {
+    background-color: #6b4f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    margin-bottom: 0;
+    width: 100%;
+    bottom: 0;
+}
